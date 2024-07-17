@@ -1,0 +1,186 @@
+body {
+  font: 16px/28px arial, sams-serif;
+  background-color: #eaeaea;
+  color: #333;
+}
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: #fff;
+}
+
+.header {
+  padding: 20px;
+  padding-bottom: 2px;
+}
+
+.header .judul {
+  font-size: 40px;
+  font-weight: bold;
+}
+.header ul li {
+  display: inline-block;
+  margin-top: auto;
+  margin-right: 10px;
+  padding-bottom: 5px;
+}
+
+.header a {
+  text-decoration: none;
+  color: rgb(15, 156, 238);
+  padding: 3px;
+}
+
+.header a:hover {
+  background-color: lightskyblue;
+  color: white;
+}
+
+/*ukuran gambar utama*/
+.hero {
+  height: 250px;
+  background-image: url("gambar1.jpg");
+  background-size: cover;
+  background-position: 30 -10;
+  border-top: 5px solid lightblue;
+  border-bottom: 5px solid salmon;
+}
+
+/* judul berita 1*/
+.content {
+  padding: 250px;
+}
+
+/* ukuran judul berita 1*/
+.content h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: -200px;
+}
+
+/*tanggal berita 1*/
+.content .penulis {
+  font-size: 15px;
+  margin-left: -200px;
+}
+
+/* gambar berita 1*/
+.KPK {
+  height: 250px;
+  background-image: url("kpk.jpg");
+  background-size: auto;
+  margin-left: -200px;
+  background-position: 30 -10;
+  border-top: 5px solid lightblue;
+  border-bottom: 5px solid salmon;
+}
+
+/*tulisan dibawah foto 1*/
+.content p {
+  margin-bottom: 20px;
+  font-size: 20px;
+  margin-left: -200px;
+}
+
+/* ukuran judul berita 2*/
+
+.content h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: -200px;
+}
+
+/*tanggal berita 2*/
+.content .berita2 {
+  font-size: 15px;
+  margin-left: -200px;
+}
+
+/* gambar berita 2*/
+.israel {
+  height: 250px;
+  background-image: url("israel.jpeg");
+  background-size: auto;
+  margin-left: -200px;
+  background-position: 30 -10;
+  border-top: 5px solid lightblue;
+  border-bottom: 5px solid salmon;
+}
+/*tulisan dibawah foto 2*/
+.israel p {
+  margin-bottom: 20px;
+  font-size: 20px;
+  margin-left: -200px;
+}
+
+/* ukuran judul berita 3*/
+
+.content h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: -200px;
+}
+
+/*tanggal berita 3*/
+.content .berita3 {
+  font-size: 15px;
+  margin-left: -200px;
+}
+
+/* gambar berita 3*/
+.ronaldo {
+  height: 250px;
+  background-image: url("berita3.jpeg");
+  background-size: auto;
+  margin-left: -200px;
+  background-position: 30 -10;
+  border-top: 5px solid lightblue;
+  border-bottom: 5px solid salmon;
+}
+/*tulisan dibawah foto 3*/
+.ronaldo p {
+  margin-bottom: 20px;
+  font-size: 20px;
+  margin-left: -200px;
+}
+
+/* ukuran judul berita 4*/
+
+.content h5 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: -200px;
+}
+
+/*tanggal berita 4*/
+.content .berita4 {
+  font-size: 15px;
+  margin-left: -200px;
+}
+
+/* gambar berita 4*/
+.siber {
+  height: 250px;
+  background-image: url("berita4.jpeg");
+  background-size: auto;
+  margin-left: -200px;
+  background-position: 30 -10;
+  border-top: 5px solid lightblue;
+  border-bottom: 5px solid salmon;
+}
+/*tulisan dibawah foto 4*/
+.siber p {
+  margin-bottom: 20px;
+  font-size: 20px;
+  margin-left: -200px;
+}
+.content .penulis a {
+  color: rgb(70, 13, 226);
+  text-decoration: none;
+}
+
+.footer {
+  background-color: rgb(61, 60, 60);
+  background-position: left;
+  padding: 10px;
+}
